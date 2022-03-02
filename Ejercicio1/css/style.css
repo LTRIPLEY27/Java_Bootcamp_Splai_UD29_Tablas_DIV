@@ -1,0 +1,13 @@
+#tabla {
+    background-color: aquamarine;
+    border: 1 px solid black;
+}
+
+th{ /*especificación de estilo únicamente para el encabezado de la tabla y el porqué usar etiquetado dentro de la misma para apuntar a la espeficidad en caso de que se requiera*/
+    background-color: seagreen;
+    border: 1 px solid black;
+}
+
+tr, th, td {
+    border: 1 px solid black;
+}
