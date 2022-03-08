@@ -36,6 +36,7 @@ body {
     width: 200px;
     height: 200px;
     margin: 30px;
+    border: solid black 1px;
 }
 
 .hijo3 {
@@ -44,10 +45,10 @@ body {
 }
 
 .hijo3 > div { 
-    background-color: aqua;
     width: 200px;
     height: 200px;
     margin: 30px;
+    border: solid black 1px;
 }
 
 #mantel1 {
@@ -115,4 +116,21 @@ body {
     background-size: 100px 200px;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+#hijo3I {
+    /*background-color: darkgreen;*/
+    background : linear-gradient(90deg, rgb(54, 247, 54), black)
+}
+
+#hijo3J {
+    background: linear-gradient(white, rgb(160, 4, 4));
+}
+
+#hijo3K {
+    background: linear-gradient(rgb(255, 255, 255), rgb(14, 116, 14));
+}
+
+#hijo3L {                                   /* EL VALOR TRANSPARENTE DEGRADA EL FONDO COMO ATRIBUTO EN CSS */
+    background: linear-gradient(transparent, rgb(14, 116, 14));
 }
